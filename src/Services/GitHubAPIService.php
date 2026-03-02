@@ -42,6 +42,10 @@ class GitHubAPIService
 
         $keys = $response->json();
 
+        if ($keys === null || !is_array($keys)) {
+            return false;
+        }
+
         foreach ($keys as $key) {
             if (isset($key['key']) && trim($key['key']) === trim($publicKey)) {
                 return true;
