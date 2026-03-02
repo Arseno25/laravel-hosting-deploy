@@ -1,8 +1,8 @@
-# 🚀 Hosting Laravel Deploy
+# 🚀 Laravel Hosting Deploy
 
-[![Latest Version](https://img.shields.io/packagist/v/arseno25/hosting-laravel-deploy?style=flat-square)](https://packagist.org/packages/arseno25/hosting-laravel-deploy)
-[![Total Downloads](https://img.shields.io/packagist/dt/arseno25/hosting-laravel-deploy?style=flat-square)](https://packagist.org/packages/arseno25/hosting-laravel-deploy)
-[![License](https://img.shields.io/packagist/l/arseno25/hosting-laravel-deploy?style=flat-square)](https://github.com/arseno25/hosting-laravel-deploy/blob/main/LICENSE.md)
+[![Latest Version](https://img.shields.io/packagist/v/arseno25/laravel-hosting-deploy?style=flat-square)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
+[![Total Downloads](https://img.shields.io/packagist/dt/arseno25/laravel-hosting-deploy?style=flat-square)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
+[![License](https://img.shields.io/packagist/l/arseno25/laravel-hosting-deploy?style=flat-square)](https://github.com/arseno25/laravel-hosting-deploy/blob/main/LICENSE.md)
 
 A universal deployment tool for Laravel to any shared hosting or VPS via SSH with GitHub Actions support.
 
@@ -30,7 +30,7 @@ A universal deployment tool for Laravel to any shared hosting or VPS via SSH wit
 Install the package via Composer:
 
 ```bash
-composer require arseno25/hosting-laravel-deploy
+composer require arseno25/laravel-hosting-deploy
 ```
 
 The package will automatically register its service provider.
