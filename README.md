@@ -9,7 +9,7 @@
 
   [![Latest Version](https://img.shields.io/packagist/v/arseno25/laravel-hosting-deploy?style=flat-square&logo=composer&logoColor=white)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
   [![Total Downloads](https://img.shields.io/packagist/dt/arseno25/laravel-hosting-deploy?style=flat-square&logo=composer&logoColor=white)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
-  [![License](https://img.shields.io/packagist/l/arseno25/laravel-hosting-deploy?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/Arseno25/laravel-hosting-deploy/blob/main/LICENSE.md)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/Arseno25/laravel-hosting-deploy/blob/main/LICENSE.md)
   [![PHP Version](https://img.shields.io/packagist/php-v/arseno25/laravel-hosting-deploy?style=flat-square&logo=php&logoColor=white)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
   [![Laravel](https://img.shields.io/badge/Laravel-10%2C%2011%2C%2012-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com)
 
