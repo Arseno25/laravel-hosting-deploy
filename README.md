@@ -11,7 +11,7 @@
   [![Total Downloads](https://img.shields.io/packagist/dt/arseno25/laravel-hosting-deploy?style=flat-square&logo=composer&logoColor=white)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square&logo=opensourceinitiative&logoColor=white)](https://github.com/Arseno25/laravel-hosting-deploy/blob/main/LICENSE.md)
   [![PHP Version](https://img.shields.io/packagist/php-v/arseno25/laravel-hosting-deploy?style=flat-square&logo=php&logoColor=white)](https://packagist.org/packages/arseno25/laravel-hosting-deploy)
-  [![Laravel](https://img.shields.io/badge/Laravel-10%2C%2011%2C%2012-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com)
+  [![Laravel](https://img.shields.io/badge/Laravel-11%2C%2012-FF2D20?style=flat-square&logo=laravel&logoColor=white)](https://laravel.com)
 
   <!-- Links -->
   [![GitHub stars](https://img.shields.io/github/stars/Arseno25/laravel-hosting-deploy?style=flat-square&logo=github&logoColor=white)](https://github.com/Arseno25/laravel-hosting-deploy/stargazers)
@@ -137,8 +137,8 @@
 
 ## 📋 Requirements
 
-- **PHP:** 8.1 or higher
-- **Laravel:** 10, 11, or 12
+- **PHP:** 8.2 or higher
+- **Laravel:** 11 or 12
 - **Server:** SSH access to your server
 - **GitHub:** Account with repository access
 
