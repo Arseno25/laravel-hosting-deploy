@@ -1,0 +1,82 @@
+# ═══════════════════════════════════════════════════════════════
+# Laravel Package .gitignore
+# ═══════════════════════════════════════════════════════════════
+
+# Composer
+/vendor/
+composer.lock
+
+# PHPStorm / PhpStorm
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw[a-z]
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# Testing
+/.phpunit.result.cache
+/phpunit.xml
+.phpunit.result.cache
+/.punit*
+/Pest.php
+
+# Coverage
+/build/
+/coverage/
+/htmlcov/
+.phpunit.cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+
+# Deployment keys (generated locally)
+/storage/app/deploy/
+id_deploy*
+*.pem
+
+# Environment (if any)
+.env
+.env.*
+!.env.example
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z

@@ -1,0 +1,67 @@
+{
+    "name": "arseno25/hosting-laravel-deploy",
+    "description": "Universal deployment tool for Laravel to any shared hosting or VPS via SSH with GitHub Actions support",
+    "keywords": [
+        "laravel",
+        "deployment",
+        "ssh",
+        "hosting",
+        "vps",
+        "github-actions",
+        "cicd",
+        "automated-deployment"
+    ],
+    "homepage": "https://github.com/arseno25/hosting-laravel-deploy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arseno25",
+            "email": "arseno25@example.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/console": "^10.0|^11.0|^12.0",
+        "illuminate/support": "^10.0|^11.0|^12.0",
+        "illuminate/process": "^10.0|^11.0|^12.0",
+        "spatie/laravel-package-tools": "^1.93"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.0",
+        "pestphp/pest": "^2.0|^3.0",
+        "orchestra/testbench": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arseno25\\HostingLaravelDeploy\\": "src/",
+            "Arseno25\\HostingLaravelDeploy\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arseno25\\HostingLaravelDeploy\\Tests\\": "tests/",
+            "Arseno25\\HostingLaravelDeploy\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/pest",
+        "test-coverage": "vendor/bin/pest --coverage",
+        "format": "vendor/bin/pint"
+    },
+    "config": {
+        "sort-packages": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arseno25\\HostingLaravelDeploy\\HostingDeployServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
