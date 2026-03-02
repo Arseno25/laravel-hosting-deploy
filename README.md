@@ -1,7 +1,7 @@
 <div align="center">
 
   <!-- Logo/Icon -->
-  <img src="https://laravel.com/assets/img/components/logo-laravel.svg" alt="Laravel" width="120" height="auto">
+  <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel" width="100" height="auto">
 
   # 🚀 Laravel Hosting Deploy
 
