@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Config;
 
 class DeployAndSetupCICDCommand extends Command
 {
-    protected $signature = 'hosting-deploy:deploy-and-setup-cicd
+    protected $signature = 'hosting-deploy:all
         {--fresh : Perform a fresh deployment (reset database)}
         {--no-storage : Skip storage linking}
         {--no-frontend : Skip frontend building}

@@ -96,7 +96,7 @@ DEPLOY_TIMEOUT=30                     # SSH connection timeout in seconds
 The fastest way to get started is using the all-in-one command:
 
 ```bash
-php artisan hosting-deploy:deploy-and-setup-cicd
+php artisan hosting-deploy:all
 ```
 
 This command will:
@@ -167,10 +167,10 @@ php artisan hosting-deploy:setup-cicd --skip-key-check
 
 ```bash
 # Setup CI/CD and deploy in one command
-php artisan hosting-deploy:deploy-and-setup-cicd
+php artisan hosting-deploy:all
 
 # With options
-php artisan hosting-deploy:deploy-and-setup-cicd --fresh --force --show-errors
+php artisan hosting-deploy:all --fresh --force --show-errors
 ```
 
 ## 📝 Manual GitHub Actions Setup
@@ -394,7 +394,7 @@ Common issues and solutions:
 | `hosting-deploy:run` | Deploy application to server |
 | `hosting-deploy:setup-cicd` | Set up CI/CD with GitHub Actions |
 | `hosting-deploy:github-actions` | Generate GitHub Actions workflow file |
-| `hosting-deploy:deploy-and-setup-cicd` | All-in-one setup and deploy |
+| `hosting-deploy:all` | All-in-one setup and deploy |
 
 ## 🤝 Contributing
 
